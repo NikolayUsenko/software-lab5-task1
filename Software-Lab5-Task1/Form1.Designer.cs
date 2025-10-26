@@ -177,6 +177,7 @@ namespace Software_Lab5_Task1
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Window;
             ClientSize = new Size(800, 450);
+            ContextMenuStrip = contextMenuStrip1;
             Controls.Add(button1);
             Controls.Add(menuStrip1);
             Location = new Point(0, 50);

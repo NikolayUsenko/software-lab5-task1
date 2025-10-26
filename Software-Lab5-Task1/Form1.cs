@@ -5,7 +5,6 @@ namespace Software_Lab5_Task1
         public Form1()
         {
             InitializeComponent();
-            ContextMenuStrip = contextMenuStrip1;
         }
 
         private void Form1_Load(object sender, EventArgs e)
