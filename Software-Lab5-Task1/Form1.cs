@@ -14,17 +14,17 @@ namespace Software_Lab5_Task1
             toolStripComboBox2.SelectedIndex = 0;
         }
 
-        #region Основные функции
+        #region РћСЃРЅРѕРІРЅС‹Рµ С„СѓРЅРєС†РёРё
 
         private void colorChance(ToolStripComboBox ComboBox)
         {
             switch (ComboBox.Text)
             {
-                case "белый": BackColor = Color.White; break;
-                case "красный": BackColor = Color.Red; break;
-                case "черный": BackColor = Color.Black; break;
-                case "синий": BackColor = Color.Blue; break;
-                case "желтый": BackColor = Color.Yellow; break;
+                case "Р±РµР»С‹Р№": BackColor = Color.White; break;
+                case "РєСЂР°СЃРЅС‹Р№": BackColor = Color.Red; break;
+                case "С‡РµСЂРЅС‹Р№": BackColor = Color.Black; break;
+                case "СЃРёРЅРёР№": BackColor = Color.Blue; break;
+                case "Р¶РµР»С‚С‹Р№": BackColor = Color.Yellow; break;
                 default: BackColor = SystemColors.Control; break;
             }
         }
@@ -40,13 +40,13 @@ namespace Software_Lab5_Task1
             }
             catch
             {
-                MessageBox.Show("Необходимо ввести целое число от 0 до 255", "Ошибка в задании цвета");
+                MessageBox.Show("РќРµРѕР±С…РѕРґРёРјРѕ РІРІРµСЃС‚Рё С†РµР»РѕРµ С‡РёСЃР»Рѕ РѕС‚ 0 РґРѕ 255", "РћС€РёР±РєР° РІ Р·Р°РґР°РЅРёРё С†РІРµС‚Р°");
             }
         }
 
         #endregion
 
-        #region Обработчики для MenuStrip
+        #region РћР±СЂР°Р±РѕС‚С‡РёРєРё РґР»СЏ MenuStrip
 
         private void toolStripComboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -70,7 +70,7 @@ namespace Software_Lab5_Task1
 
         #endregion
 
-        #region Обработчики закрытия формы
+        #region РћР±СЂР°Р±РѕС‚С‡РёРєРё Р·Р°РєСЂС‹С‚РёСЏ С„РѕСЂРјС‹
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -89,7 +89,7 @@ namespace Software_Lab5_Task1
 
         #endregion
 
-        #region Обрабочики для ContextMenuStrip
+        #region РћР±СЂР°Р±РѕС‡РёРєРё РґР»СЏ ContextMenuStrip
 
         private void toolStripComboBox2_SelectedIndexChanged(object sender, EventArgs e)
         {
